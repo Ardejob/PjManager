@@ -535,6 +535,7 @@ dimen hint_alpha_material_dark
 dimen hint_alpha_material_light
 dimen hint_pressed_alpha_material_dark
 dimen hint_pressed_alpha_material_light
+dimen login_edit_text_horizontal_dimen
 dimen notification_action_icon_size
 dimen notification_action_text_size
 dimen notification_big_circle_margin
@@ -643,6 +644,8 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable bg_button
+drawable bg_text_view
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable notification_action_background
@@ -745,6 +748,10 @@ id line1
 id line3
 id listMode
 id list_item
+id login_button
+id login_email
+id login_password
+id login_title
 id message
 id middle
 id multiply

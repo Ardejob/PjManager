@@ -6,7 +6,7 @@
     density="420dpi"
     format="10"
     plugin-version="3.4.1"
-    timestamp="1576166799600"
+    timestamp="1576168609211"
     token="-4583648248876222180"
     verifier="COMPATIBLE" >
 
@@ -74,16 +74,16 @@
     <build
         build-mode="COLD"
         ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1576163199195"
+        timestamp="1576168267506"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Users\OPARA BENJAMIN\Documents\Remote\PjManager\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="C:\Users\OPARA BENJAMIN\Documents\Remote\PjManager\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\OPARA BENJAMIN\Documents\Remote\PjManager\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\OPARA BENJAMIN\Documents\Remote\PjManager\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="C:\Users\OPARA BENJAMIN\Documents\Remote\PjManager\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\OPARA BENJAMIN\Documents\Remote\PjManager\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
@@ -92,24 +92,18 @@
             location="C:\Users\OPARA BENJAMIN\Documents\Remote\PjManager\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\OPARA BENJAMIN\Documents\Remote\PjManager\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="C:\Users\OPARA BENJAMIN\Documents\Remote\PjManager\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\OPARA BENJAMIN\Documents\Remote\PjManager\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1576166707749"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Users\OPARA BENJAMIN\Documents\Remote\PjManager\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="C:\Users\OPARA BENJAMIN\Documents\Remote\PjManager\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
     </build>
     <build
         build-mode="HOT_WARM"
-        timestamp="1576166799600"
+        timestamp="1576168609211"
         verifier="COMPATIBLE" >
         <artifact
             location="C:\Users\OPARA BENJAMIN\Documents\Remote\PjManager\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"

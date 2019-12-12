@@ -1,16 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
+    android:background="#0079BF"
     tools:context=".LoginActivity">
 
-    <ImageView
+    <TextView
+        android:id="@+id/login_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/trello"
-        android:background="#0079BF"/>
-</LinearLayout>
+        android:text="Login to PJ Manager"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="24dp"/>
+
+    <EditText
+        android:id="@+id/login_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="@dimen/login_edit_text_horizontal_dimen"
+        android:layout_marginEnd="@dimen/login_edit_text_horizontal_dimen"
+        android:background="@drawable/bg_text_view"
+        android:hint="      Email"
+        android:layout_below="@id/login_title"/>
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="@dimen/login_edit_text_horizontal_dimen"
+        android:layout_marginEnd="@dimen/login_edit_text_horizontal_dimen"
+        android:background="@drawable/bg_text_view"
+        android:hint="      Password"
+        android:layout_below="@id/login_email"/>
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="32dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/bg_button"
+        android:layout_below="@id/login_password"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset Password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:textColor="#fff"
+        android:layout_below="@id/login_button"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up for an account"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>

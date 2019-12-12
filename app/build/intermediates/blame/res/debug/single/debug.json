@@ -420,6 +420,10 @@
         "source": "C:\\Users\\OPARA BENJAMIN\\.gradle\\caches\\transforms-2\\files-2.1\\dc42027c53919d6e00c43e599b86fadd\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
+        "merged": "C:\\Users\\OPARA BENJAMIN\\Documents\\Remote\\PjManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_text_view.xml.flat",
+        "source": "C:\\Users\\OPARA BENJAMIN\\Documents\\Remote\\PjManager\\app\\src\\main\\res\\drawable\\bg_text_view.xml"
+    },
+    {
         "merged": "C:\\Users\\OPARA BENJAMIN\\Documents\\Remote\\PjManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\OPARA BENJAMIN\\.gradle\\caches\\transforms-2\\files-2.1\\dc42027c53919d6e00c43e599b86fadd\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
@@ -750,6 +754,10 @@
     {
         "merged": "C:\\Users\\OPARA BENJAMIN\\Documents\\Remote\\PjManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_spinner_textfield_background_material.xml.flat",
         "source": "C:\\Users\\OPARA BENJAMIN\\.gradle\\caches\\transforms-2\\files-2.1\\dc42027c53919d6e00c43e599b86fadd\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\OPARA BENJAMIN\\Documents\\Remote\\PjManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_button.xml.flat",
+        "source": "C:\\Users\\OPARA BENJAMIN\\Documents\\Remote\\PjManager\\app\\src\\main\\res\\drawable\\bg_button.xml"
     },
     {
         "merged": "C:\\Users\\OPARA BENJAMIN\\Documents\\Remote\\PjManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",

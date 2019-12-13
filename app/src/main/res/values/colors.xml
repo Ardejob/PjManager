@@ -1,31 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#0079BF</color>
-    <color name="colorPrimaryDark">#0079BF</color>
-    <color name="colorAccent">#FF4081</color>
-
-    <!-- dots inactive colors -->
-    <color name="dot_inactive_screen1">#60A7D3</color>
-    <color name="dot_inactive_screen2">#60A7D3</color>
-    <color name="dot_inactive_screen3">#60A7D3</color>
-    <color name="dot_inactive_screen4">#60A7D3</color>
-    <!-- dots active colors -->
-    <color name="dot_active_screen1">#FFFFFF</color>
-    <color name="dot_active_screen2">#FFFFFF</color>
-    <color name="dot_active_screen3">#FFFFFF</color>
-    <color name="dot_active_screen4">#FFFFFF</color>
-    <color name="slider_txt2">#C5DBE9</color>
-    <color name="slider_txt1">#fff</color>
-    <array name="array_dot_active">
-        <item>@color/dot_active_screen1</item>
-        <item>@color/dot_active_screen2</item>
-        <item>@color/dot_active_screen3</item>
-        <item>@color/dot_active_screen4</item>
-    </array>
-    <array name="array_dot_inactive">
-        <item>@color/dot_inactive_screen1</item>
-        <item>@color/dot_inactive_screen2</item>
-        <item>@color/dot_inactive_screen3</item>
-        <item>@color/dot_inactive_screen4</item>
-    </array>
+    <color name="colorPrimaryVariant">#0079BF</color>
+    <color name="colorSecondary">#FF4081</color>
+    <color name="colorSecondaryVariant">#60A7D3</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorError">#b00020</color>
+    <color name="colorOnPrimary">#000000</color>
+    <color name="colorOnSecondary">#000000</color>
+    <color name="colorOnBackground">#000000</color>
+    <color name="colorOnSurface">#000000</color>
+    <color name="colorOnError">#FFFFFF</color>
 </resources>

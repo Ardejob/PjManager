@@ -11,4 +11,10 @@
     <string name="slide3_txt2">Integrate the apps your team already uses directly into your workflow. Power-Ups turn Trello boards into living applications to meet your team\'s unique business needs.</string>
     <string name="slide4_txt1">Always In Sync</string>
     <string name="slide4_txt2">No matter where you are, Trello stays in sync across all of your devices. Collaborate with your team anywhere, from sitting on the bus to sitting on the beach.</string>
+
+    <string name="splash_content_description">Splash Logo</string>
+    <string name="slide_content_description">Slider Image</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

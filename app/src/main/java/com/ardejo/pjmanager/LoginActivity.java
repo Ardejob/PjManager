@@ -33,6 +33,7 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                 startActivity(new Intent(LoginActivity.this, CreateAccountActivity.class));
                 overridePendingTransition(0,0);
+                finish();
             }
         });
 

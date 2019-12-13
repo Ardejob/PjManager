@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0079BF"
+    tools:context=".CreateAccountActivity">
+
+    <TextView
+        android:id="@+id/create_account_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create an account"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="24dp"/>
+
+    <EditText
+        android:id="@+id/full_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="@dimen/login_edit_text_horizontal_dimen"
+        android:layout_marginEnd="@dimen/login_edit_text_horizontal_dimen"
+        android:background="@drawable/bg_text_view"
+        android:hint="Full Name"
+        android:inputType="textShortMessage"
+        android:drawableStart="@drawable/ic_person"
+        android:paddingStart="16dp"
+        android:layout_below="@id/create_account_title"/>
+
+
+    <EditText
+        android:id="@+id/login_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="@dimen/login_edit_text_horizontal_dimen"
+        android:layout_marginEnd="@dimen/login_edit_text_horizontal_dimen"
+        android:background="@drawable/bg_text_view"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:drawableStart="@drawable/ic_email"
+        android:paddingStart="16dp"
+        android:layout_below="@id/full_name"/>
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:paddingStart="16dp"
+        android:layout_marginStart="@dimen/login_edit_text_horizontal_dimen"
+        android:layout_marginEnd="@dimen/login_edit_text_horizontal_dimen"
+        android:background="@drawable/bg_text_view"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:drawableStart="@drawable/ic_lock"
+        android:layout_below="@id/login_email"/>
+
+    <Button
+        android:id="@+id/singUpButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:layout_marginTop="32dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/bg_button"
+        android:layout_below="@id/login_password"/>
+
+
+    <TextView
+        android:id="@+id/txt_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? Log in"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:clickable="true"
+        android:textSize="18sp"
+        android:layout_marginBottom="22dp"
+        android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>

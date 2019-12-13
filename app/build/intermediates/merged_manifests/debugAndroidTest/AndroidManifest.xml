@@ -3,7 +3,7 @@
     package="com.ardejo.pjmanager.test" >
 
     <uses-sdk
-        android:minSdkVersion="19"
+        android:minSdkVersion="21"
         android:targetSdkVersion="28" />
 
     <instrumentation

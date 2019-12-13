@@ -6,7 +6,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="19"
+        android:minSdkVersion="21"
         android:targetSdkVersion="28" />
 
     <application
@@ -19,6 +19,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.ardejo.pjmanager.MainActivity" />
+        <activity android:name="com.ardejo.pjmanager.CreateAccountActivity" />
         <activity android:name="com.ardejo.pjmanager.LoginActivity" />
         <activity android:name="com.ardejo.pjmanager.WelcomeActivity" />
         <activity android:name="com.ardejo.pjmanager.SplashActivity" >

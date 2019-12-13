@@ -646,8 +646,11 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable bg_button
 drawable bg_text_view
+drawable ic_email
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_lock
+drawable ic_person
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -715,6 +718,7 @@ id clip_vertical
 id collapseActionView
 id content
 id contentPanel
+id create_account_title
 id custom
 id customPanel
 id decor_content_parent
@@ -730,6 +734,7 @@ id fill
 id fill_horizontal
 id fill_vertical
 id forever
+id full_name
 id gone
 id group_divider
 id groups
@@ -790,6 +795,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id singUpButton
 id spacer
 id split_action_bar
 id spread
@@ -815,6 +821,9 @@ id titleDividerNoCustom
 id title_template
 id top
 id topPanel
+id txt_login
+id txt_resetPassword
+id txt_signUp
 id uniform
 id up
 id useLogo
@@ -855,7 +864,9 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_create_account
 layout activity_login
+layout activity_main
 layout activity_splash
 layout activity_welcome
 layout notification_action

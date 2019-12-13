@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PJ Manager</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="slide1_txt1">Trello lets you work more collaboratively and get more done.</string>
+    <string name="slide1_txt2">Trello\'s boards, lists, and cards enable you to organize and prioritize your projects in a fun, flexible, and rewarding way.</string>
+    <string name="slide2_txt1">The Team Playbook</string>
+    <string name="slide2_txt2">It\'s easy to get your team up and running with Trello. We\'ve collected all of the boards and tools you need to succeed in one handy resource.</string>
+    <string name="slide3_txt1">A Productivity Platform</string>
+    <string name="slide3_txt2">Integrate the apps your team already uses directly into your workflow. Power-Ups turn Trello boards into living applications to meet your team\'s unique business needs.</string>
+    <string name="slide4_txt1">Always In Sync</string>
+    <string name="slide4_txt2">No matter where you are, Trello stays in sync across all of your devices. Collaborate with your team anywhere, from sitting on the bus to sitting on the beach.</string>
+</resources>

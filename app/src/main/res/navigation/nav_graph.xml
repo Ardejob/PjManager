@@ -32,5 +32,19 @@
         android:name="com.ardejo.pjmanager.ui.fragments.HomeFragment"
         android:label="Home"
         tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/login_fragment"
+        android:name="com.ardejo.pjmanager.ui.fragments.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_login_fragment_to_register_fragment"
+            app:destination="@id/register_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/register_fragment"
+        android:name="com.ardejo.pjmanager.ui.fragments.RegisterFragment"
+        android:label="Register"
+        tools:layout="@layout/fragment_register" />
 
 </navigation>

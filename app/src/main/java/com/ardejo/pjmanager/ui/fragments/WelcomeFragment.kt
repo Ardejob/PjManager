@@ -35,7 +35,7 @@ class WelcomeFragment : Fragment() {
 
         binding.nextButton.setOnClickListener {
             if (binding.viewPager.currentItem == adapter.itemCount - 1) {
-                repository.firstTimeLaunch = true
+                repository.firstTimeLaunch = false
                 navController.navigate(R.id.home_fragment)
             } else {
                 binding.viewPager.currentItem = binding.viewPager.currentItem + 1
@@ -43,7 +43,7 @@ class WelcomeFragment : Fragment() {
         }
 
         binding.skipButton.setOnClickListener {
-            repository.firstTimeLaunch = true
+            repository.firstTimeLaunch = false
             navController.navigate(R.id.home_fragment)
         }
 

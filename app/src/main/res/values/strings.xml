@@ -15,6 +15,12 @@
     <string name="splash_content_description">Splash Logo</string>
     <string name="slide_content_description">Slider Image</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="register_content_description">Register Trello Log</string>
+    <string name="hint_name">Full Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="register_button">Register</string>
+    <string name="login_prompt_button">Aready have an account? Login</string>
+    <string name="login_button">Login</string>
+    <string name="register_prompt_button">Don\'t have an accout? Register</string>
 </resources>

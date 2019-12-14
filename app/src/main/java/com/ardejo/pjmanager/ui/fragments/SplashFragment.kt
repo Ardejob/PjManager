@@ -32,7 +32,6 @@ class SplashFragment : Fragment() {
             val repository = (requireActivity().application as App).preferenceRepository
             if (repository.firstTimeLaunch) {
                 navController.navigate(R.id.action_splash_fragment_to_welcome_fragment)
-                repository.firstTimeLaunch = false
             } else {
                 navController.navigate(R.id.action_splash_fragment_to_home_fragment)
             }

@@ -21,12 +21,7 @@
         android:layout_marginBottom="@dimen/dots_margin_bottom"
         android:gravity="center"
         android:orientation="horizontal"/>
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:alpha=".5"
-        android:layout_above="@id/layoutDots"
-        android:background="@android:color/white" />
+
     <Button
         android:id="@+id/btn_next"
         android:layout_width="wrap_content"
